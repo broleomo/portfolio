@@ -1,0 +1,24 @@
+.nav-container {
+    background-color: #483C75;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 15px 5%;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    position: static;
+}
+.nav-container a {
+    color:white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0.6;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.nav-container a:hover {
+    color: #A89FCE;
+}
