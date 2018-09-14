@@ -6,12 +6,15 @@ export default class Input extends Component {
     return (
         <div>
         <div style={{display: 'flex', alignItems: 'center', flexDirection:"column"}}>
+        <div className="heading-container">
       <h1 className="heading">Hello, I'm Brooklynn!</h1>
       <img className="profile-image"src='Oval-profile.png' alt="profile"/>
       </div>
+      </div>
       <div className="line"/>
+      <div className="skills-container">
       <h2>SKILLS</h2>
-      <ul style={{display:'flex', justifyContent: 'center', listStyleType: 'disc', listStylePosition: 'inside' }}>
+      <ul style={{display:'flex',flexWrap:'wrap', listStyleType: 'disc', listStylePosition: 'inside' }}>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
@@ -24,6 +27,7 @@ export default class Input extends Component {
           <li>Zepelin</li>
           <li>Wireframing</li>
       </ul>
+      </div>
       <div className="line"/>
       <h2>PROJECTS</h2>
       <div className="projects-container">
