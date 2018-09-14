@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BottomNav from "./BottomNav"
 import '../styles/home.css';
 export default class Input extends Component {
   render() {
@@ -46,7 +47,7 @@ export default class Input extends Component {
 
       <div class="container">
   <h3 class="title">Truck Scheduling App</h3>
-  <a target="_blank" rel="noopener noreferrer" href="http://18.219.80.82/">
+  <a>
   <div class="content">
       <div class="content-overlay"></div>
       <img class="content-image" alt="trucking-site" src="oil-recycling.png"/>
@@ -80,6 +81,7 @@ export default class Input extends Component {
   </a>
 </div>
 </div>
+<BottomNav/>
       </div>
     )
   }
