@@ -24,7 +24,6 @@ export default class Input extends Component {
           <li>Docker</li>
           <li>Sketch</li>
           <li>InVision</li>
-          <li>Zepelin</li>
           <li>Wireframing</li>
       </ul>
       </div>
