@@ -62,6 +62,23 @@ export default class Input extends Component {
   </div>
   </a>
 </div>
+
+<div class="container">
+  <h3 class="title">Cat Sitting App (Prototype)</h3>
+  <a target="_blank" rel="noopener noreferrer" href="https://invis.io/V5NPNNL2FPM">
+  <div class="content">
+      <div class="content-overlay"></div>
+      <img class="content-image" alt="trucking-site" src="wireframing.png"/>
+      <div class="content-details fadeIn-top">
+        <h3>Designed wireframes & prototyped an app for finding and scheduling with pet sitters.</h3>
+        <ul className="truck-overlay-text"style={{listStyleType: 'none', color: 'white'}}>
+          <li>Sketch</li>
+          <li>Invision</li>
+        </ul>
+      </div>
+  </div>
+  </a>
+</div>
 </div>
       </div>
     )
