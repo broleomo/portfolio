@@ -5,13 +5,13 @@ export default class Nav extends Component {
     return (
         <div className="bottom-nav-container">
         <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/brooklynnmoor/'>
-            <img style={{width: "50px"}} alt="linked-in" src="white_linkedin.png"/>
+            <img className="social-icons" style={{width: "40px"}} alt="linked-in" src="white_linkedin.png"/>
         </a>
         <a target='_blank'rel="noopener noreferrer" href='https://github.com/broleomo'>
-        <img style={{width: "50px"}} alt="github" src="github-cat.png"/>
+        <img className="social-icons" style={{width: "40px"}} alt="github" src="github-cat.png"/>
         </a>
         <a href='mailto:brooklynnmoor@gmail.com'>
-        <img style={{width: "50px"}} alt="email" src="email_icon.png"/>
+        <img className="social-icons" style={{width: "40px"}} alt="email" src="email_icon.png"/>
         </a>
         </div>
     )
