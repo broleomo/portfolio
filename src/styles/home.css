@@ -23,7 +23,7 @@ h4 {
     margin-top: 30px;
 }
 .profile-image {
-    width: 30%;
+    width: 15%;
     border-radius: 125px;
     box-shadow: 1px;
 }
@@ -35,6 +35,21 @@ h4 {
     margin: 0 auto;
     margin-top: 20px;
     width: 100%;
+}
+.bio {
+    color: #483C75;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bio p {
+    max-width: 600px;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    font-weight: 100;
 }
 li {
     color: #483C75;
@@ -157,9 +172,9 @@ li {
     flex-direction: column;
     justify-content: center;
 }
-.heading-container {
+/* .heading-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}
+} */

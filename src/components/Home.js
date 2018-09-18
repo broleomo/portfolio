@@ -8,7 +8,11 @@ export default class Input extends Component {
         <div style={{display: 'flex', alignItems: 'center', flexDirection:"column"}}>
         <div className="heading-container">
       <h1 className="heading">Hello, I'm Brooklynn!</h1>
-      <img className="profile-image"src='Oval-profile.png' alt="profile"/>
+      <div className="bio">   
+      <img className="profile-image"src='Oval-profile.png' alt="profile"/>   
+        <p>I'm a developer currently based in Indianapolis focused on the front end with some back end experience. I am energized by the collaboration of a team and am constantly learning from my peers. 
+          I love connecting with my community and do my best to focus on making positive world changes in everything that I do, professionally and personally.</p>
+      </div>
       </div>
       </div>
       <div className="line"/>
