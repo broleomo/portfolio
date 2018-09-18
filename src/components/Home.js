@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
-import BottomNav from "./BottomNav"
+import BottomNav from "./BottomNav";
+import Nav from "./Nav";
 import '../styles/home.css';
 export default class Input extends Component {
   render() {
     return (
         <div>
+          <Nav/>
         <div style={{display: 'flex', alignItems: 'center', flexDirection:"column"}}>
         <div className="heading-container">
       <h1 className="heading">Hello, I'm Brooklynn!</h1>
       <div className="bio">   
       <img className="profile-image"src='Oval-profile.png' alt="profile"/>   
         <p>I'm a developer currently based in Indianapolis focused on the front end with some back end experience. I am energized by the collaboration of a team and am constantly learning from my peers. 
-          I love connecting with my community and do my best to focus on making positive world changes in everything that I do, professionally and personally.</p>
+          I love connecting with my community and do my best to focus on making positive world changes in everything that I do, professionally and personally.
+          <br/>
+          <br/>
+          I am also the proud mother of a black cat named Salazar who is sleeping above. Click him to see a photo.
+          </p>
       </div>
       </div>
       </div>
