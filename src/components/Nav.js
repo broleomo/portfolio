@@ -4,7 +4,7 @@ import '../styles/Nav.css';
 export default class Nav extends Component {
   render() {
     return (
-      <div style={{position: 'relative',marginTop: '-65px'}}>
+      <div style={{position: 'relative',marginTop: '-55px', marginLeft: '-10px', marginRight: '-10px'}}>
         <a target='_blank' rel="noopener noreferrer" href="https://www.instagram.com/p/Bd3TcueHjmM/?taken-by=broleomo">
           <img style={{width: '100px', position: "relative", top: '38px', left: '80px'}} alt="sleeping cat" src="sleeping-cat.png"></img>
         </a>

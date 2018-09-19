@@ -4,6 +4,7 @@ export default class Nav extends Component {
   render() {
     return (
         <div className="bottom-nav-container">
+        <div className="bottom-items">
         <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/brooklynnmoor/'>
             <img className="social-icons" style={{width: "40px"}} alt="linked-in" src="white_linkedin.png"/>
         </a>
@@ -13,6 +14,7 @@ export default class Nav extends Component {
         <a href='mailto:brooklynnmoor@gmail.com'>
         <img className="social-icons" style={{width: "40px"}} alt="email" src="email_icon.png"/>
         </a>
+        </div>
         </div>
     )
   }
