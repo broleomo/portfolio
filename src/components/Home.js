@@ -63,7 +63,7 @@ export default class Input extends Component {
   <a>
   <div class="content">
       <div class="content-overlay"></div>
-      <img class="content-image" alt="trucking-site" src="oil-recycling.png"/>
+        <img class="content-image" alt="trucking-site" src="oil-recycling.png"/>
       <div class="content-details fadeIn-top">
         <h3>Worked on a small team using:</h3>
         <ul className="truck-overlay-text"style={{listStyleType: 'none', color: 'white'}}>
