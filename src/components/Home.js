@@ -24,7 +24,7 @@ export default class Input extends Component {
       <div className="line"/>
       <div className="skills-container">
       <h2>SKILLS</h2>
-      <ul style={{display:'flex',flexWrap:'wrap', listStyleType: 'disc', listStylePosition: 'inside' }}>
+      <ul className="skills" style={{display:'flex',flexWrap:'wrap', listStyleType: 'disc', listStylePosition: 'inside' }}>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>

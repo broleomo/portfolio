@@ -55,6 +55,13 @@ h4 {
     font-weight: 100;
     align-self: center;
 }
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+}
 }
 
 .bio {
@@ -193,9 +200,4 @@ li {
     flex-direction: column;
     justify-content: center;
 }
-/* .heading-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-} */
+
