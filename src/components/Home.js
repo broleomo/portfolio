@@ -11,7 +11,9 @@ export default class Input extends Component {
         <div className="heading-container">
       <h1 className="heading">Hello, I'm Brooklynn!</h1>
       <div className="bio">   
-      <img className="profile-image"src='Oval-profile.png' alt="profile"/>   
+      <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/secludedenigma">
+      <img className="profile-image"src='Brooklynn-illustrated.png' alt="profile"/>  
+      </a> 
         <p>I'm a developer currently based in Indianapolis focused on the front end with some back end experience. I am energized by the collaboration of a team and am constantly learning from my peers. 
           I love connecting with my community and do my best to focus on making positive world changes in everything that I do, professionally and personally.
           <br/>
@@ -95,6 +97,7 @@ export default class Input extends Component {
 </div>
 </div>
 <BottomNav/>
+<div className="design-credit"> <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/secludedenigma">Illustration design by Blake Walker</a></div>
       </div>
     )
   }
