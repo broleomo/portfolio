@@ -1,6 +1,6 @@
 .heading {
     color: #483C75;
-    font-family: 'Open Sans';
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 40px;
     flex-wrap: wrap;
@@ -8,7 +8,7 @@
 }
 h2 {
     color: #483C75;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-top: 30px;
@@ -17,7 +17,7 @@ h2 {
 
 h4 {
     color: #483C75;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-top: 30px;
@@ -46,15 +46,13 @@ h4 {
      justify-content: center;
      text-align: center;
  }
- .profile-image {
-    .profile-image {
+.profile-image {
         width: 200px;
         height: 200px;
         border-radius: 125px;
         box-shadow: 1px;
         /* opacity: .9; */
     }
-}
 .bio p {
     flex-wrap: wrap;
     text-align: center;
@@ -76,7 +74,7 @@ h4 {
 
 .bio {
     color: #483C75;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 20px;
     display: flex;
@@ -91,7 +89,7 @@ h4 {
 }
 li {
     color: #483C75;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-left: 20px;
 }
@@ -211,12 +209,13 @@ li {
 }
 .design-credit {
     text-align: center;
-    font-family: 'Open Sans';
+    font-family:'Raleway', sans-serif;
     font-size: 16px;
     color: #483C75; 
 }
 .design-credit a{
     text-decoration: none;
+    font-family:'Raleway', sans-serif
 }
 .design-credit a:hover {
     color: #675B91;
