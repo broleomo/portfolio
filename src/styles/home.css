@@ -217,6 +217,7 @@ li {
 @media only screen and (max-width: 660px) {
     .skills {
         flex-direction: column;
+        align-items: center;
         padding: 0;
     }
     li {
