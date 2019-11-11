@@ -87,11 +87,18 @@ h4 {
     font-weight: 100;
     padding-left: 5px;
 }
+
 li {
     color: #483C75;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-left: 20px;
+}
+
+@media only screen and (max-width: 660px) {
+    li {
+        padding-left: 0;
+    }
 }
 
 .container{
@@ -206,6 +213,15 @@ li {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+@media only screen and (max-width: 660px) {
+    .skills {
+        flex-direction: column;
+        padding: 0;
+    }
+    li {
+        padding: 0;
+    }
 }
 .design-credit {
     text-align: center;

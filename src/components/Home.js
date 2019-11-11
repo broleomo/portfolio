@@ -23,7 +23,7 @@ export default class Input extends Component {
       <div className="line"/>
       <div className="skills-container">
       <h2>SKILLS</h2>
-      <ul className="skills" style={{display:'flex',flexWrap:'wrap', listStyleType: 'disc', listStylePosition: 'inside' }}>
+      <ul className="skills" style={{display:'flex',flexWrap:'wrap', listStyleType: 'none' }}>
           <li>React</li>
           <li>Redux</li>
           <li>Node.js</li>
