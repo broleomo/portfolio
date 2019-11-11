@@ -26,9 +26,11 @@ export default class Input extends Component {
       <ul className="skills" style={{display:'flex',flexWrap:'wrap', listStyleType: 'none' }}>
           <li>React</li>
           <li>Redux</li>
+          <li>Jest/Enzyme</li>
           <li>Node.js</li>
           <li>Gatsby.js</li>
           <li>Javascript</li>
+          <li>Git</li>
           <li>Docker</li>
           <li>Sketch</li>
           <li>InVision</li>
